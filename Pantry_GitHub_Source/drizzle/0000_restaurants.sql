@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS restaurants (
+  owner_id TEXT PRIMARY KEY NOT NULL,
+  revision INTEGER NOT NULL DEFAULT 0,
+  document TEXT NOT NULL
+);
